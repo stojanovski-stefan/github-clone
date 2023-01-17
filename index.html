@@ -14,6 +14,7 @@
 
     <body>
         <img src="resources/github-mark-white.png">
+        <br>
         <h2>Sign in to GitHub</h2>
         <div class="login">
             <form>
@@ -22,19 +23,22 @@
                 <input type="text" class="input">
                 <br>
                 <label for="pass">Password</label>
+                <a id="forgot" href="pages/forgot-pass.html">Forgot Password?</a>
                 <br>
                 <input type="text" class="input">
             </form>
-            <button type="button">Sign in</button>
+            <button type="button" class=sign-in><strong>Sign in</strong></button>
         </div>
-        <p>New to GitHub? <a href="pages/make-acc.html">Create and account</a>.</p>
+        <br>
+        <p>New to GitHub? <a id="button" href="pages/make-acc.html">Create and account</a>.</p>
         <br>
         <br>
         <br>
-        <a href="pages/terms.html">Terms</a>
-        <a href="pages/privacy.html">Privacy</a>
-        <a href="pages/security.html">Security</a>
-        <a href="pages/contact-Github.html">Contact GitHub</a>
-
+        <div class="center">
+            <a class="button" href="pages/terms.html">Terms</a>
+            <a class="button" href="pages/privacy.html">Privacy</a>
+            <a class="button" href="pages/security.html">Security</a>
+            <a class="button gray" href="pages/contact-Github.html">Contact GitHub</a>
+        </div>
     </body>
 </html>
